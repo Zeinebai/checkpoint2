@@ -1,0 +1,30 @@
+justify-content: flex-end;bougera la grenouille vers la droite
+justify-content:center;
+align-items:flex-end;positionner au bas de conteneur
+ 
+#command to get data from kaggle 
+!kaggle datasets download -d datacolab/car-damage-classification
+
+
+!mkdir /root/.kaggle
+!cp kaggle.json /root/.kaggle
+#command to get data from kaggle 
+!kaggle datasets download -d datacolab/car-damage-classification
+
+
+
+import time
+import matplotlib.pyplot as plt
+import numpy as np
+import seaborn as sns
+import pandas  as pd
+from pip._internal.operations.kaggle import kaggle
+from pip._internal.operations.kaggle  mkdir /root/.kaggle
+from pip._internal.operations.kaggle import cp kaggle.json /root/.kaggle
+from kaggle.models import Sequential
+from kaggle.layers import Dense, Dropout, Flatten
+from kaggle.optimizers import Adam
+from kaggle.layers import Activation
+from kaggle.layers.convolutional import Conv2D, MaxPooling2D
+from kaggle.utils import np_utils
+from kaggle.datasets import kaggle.json file 

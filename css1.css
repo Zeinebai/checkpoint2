@@ -1,0 +1,12 @@
+h1{
+    color: brown;
+    border-style: initial;
+}
+h1{font-size: 50px;
+    display: block;
+    border: olive;
+}
+li{
+    display: inline;
+}
+
