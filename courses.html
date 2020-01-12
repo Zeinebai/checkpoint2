@@ -51,22 +51,30 @@
 
 
     <div class="center1">
-        <button>B</button>
-        <button>I</button>
-        <button>underline</button>
-        <select>
-            <option>Arial</option>
-            <option> arial2</option>
-            <option>arial3</option>
-        </select>
-        <select>
-            <option>20px</option>
-            <option>10px</option>
-            <option>5px</option>
-        </select> </div>
+        <button onclick="changetobold()">B</button>
+        <button onclick="changetoitalic()">I</button>
+        <button onclick="changetounderlined()">underlined</button>
 
-    <form><textarea class="center" cols="100" row="500"> hr <- affiche la ligne horizontale </textarea></form>
+        <select id="input-font" class="input" onchange="changeFont(); ">
+            <option value=" Times New Roman" selected="selected">Times New Roman</option>
+            <option value="Arial">Arial</option>
+
+
+        </select>
+        <select id="fontsize" class="input" onchange="changesize()">
+            <option value="20px">20px</option>
+            <option value="10px">10px</option>
+            <option value="5px">5px</option>
+        </select></div>
+
+    <div class="center1">
+        <form>
+            <textarea id="Mytext" cols="100" row="500"> hr <- affiche la ligne horizontale </textarea>
+
+        </form>
+    </div>
 
 </body>
+<script src="./js/main.js"></script>
 
 </html>
