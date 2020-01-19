@@ -4,9 +4,12 @@
 
 <head>
    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </head>
 
 <body>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
    <div class="im"> <img src="res/im5.png"> </div>
 
    <div class="up">
@@ -28,7 +31,7 @@
    <hr>
    <div class="overlay-image">
 
-      <img class="image" src="res/im6.jpg">
+      <img class="image" src="res/im6.JPG">
       <hr>
 
 
@@ -77,10 +80,14 @@
          <h1><b>Our courses</b></h1>
       </p>
    </div>
+   <div id="ex1" class="modal">
+      <p>Thanks for clicking. That felt good.</p>
+      <a href="#" rel="modal:close">Close</a>
+   </div>
    <div class="hi">
-      <div id="im1" class="container"><button class="btn"> view more </button></div>
-      <div id="im2" class="container"><button class="btn"> view more </button></div>
-      <div id="im3" class="container"> <button class="btn">view more</button> </div>
+      <div id="im1" class="container"> <a href="#ex1" rel="modal:open" class="btn"> view more </a></div>
+      <div id="im2" class="container"><a href="#ex1" rel="modal:open" class="btn"> view more </a></div>
+      <div id="im3" class="container"><a href="#ex1" rel="modal:open" class="btn"> view more </a></div>
 
    </div>
    <div class="center1">
@@ -93,6 +100,13 @@
          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
    <p class="white center1"> created with passion </p>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
+
+
 </body>
 <script src="./js/main.js"></script>
 
