@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="C:\Users\User\Desktop\GoMyCode\coding\css\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+
+<body>
+    <div class="im"> <img src="res/im5.png"> </div>
+
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="courses.html">Courses</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+
+    </ul>
+
+    <div class="overlay-image">
+
+        <img class="image" src="res/im2.png">
+        <hr>
+        <div class="normal">
+            <div class="text">Courses</div>
+        </div>
+
+
+
+        <div class="container">
+            <div id="ex1" class="modal">
+                <p>Thanks for clicking. That felt good.</p>
+                <a href="#" rel="modal:close">Close</a>
+            </div>
+
+
+            <div class="hi">
+                <div id="im1" class="container"><a href="#ex1" rel="modal:open" class="btn"> view more </a></div>
+                <div id="im2" class="container"><a href="#ex1" rel="modal:open" class="btn"> view more </a></div>
+                <div id="im3" class="container"> <a href="#ex1" rel="modal:open" class="btn"> view more </a> </div>
+                <div id="im4" class="container"><a href="#ex1" rel="modal:open" class="btn"> view more </a></div>
+                <div id="im5" class="container"><a href="#ex1" rel="modal:open" class="btn"> view more </a> </div>
+                <div id="im6" class="container"><a href="#ex1" rel="modal:open" class="btn"> view more </a></div>
+                <div id="im7" class="container"><a href="#ex1" rel="modal:open" class="btn"> view more </a></div>
+                <div id="im8" class="container"><a href="#ex1" rel="modal:open" class="btn"> view more </a></div>
+            </div>
+        </div>
+
+        <p>
+            <h1> <b class="center1 white"> Feedback </b></h1>
+        </p>
+
+
+        <div class="center1">
+            <button onclick="changetobold()">B</button>
+            <button onclick="changetoitalic()">I</button>
+            <button onclick="changetounderlined()">underlined</button>
+
+            <select id="input-font" class="input" onchange="changeFont(); ">
+                <option value=" Times New Roman" selected="selected">Times New Roman</option>
+                <option value="Arial">Arial</option>
+
+
+            </select>
+            <select id="fontsize" class="input" onchange="changesize()">
+                <option value="20px">20px</option>
+                <option value="10px">10px</option>
+                <option value="5px">5px</option>
+            </select></div>
+
+        <div class="center1">
+            <form>
+                <textarea id="Mytext" cols="100" row="500"> hr <- affiche la ligne horizontale </textarea>
+
+            </form>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    </div>
+</body>
+<script src="./js/main.js"></script>
+
+</html>
