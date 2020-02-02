@@ -42,8 +42,8 @@
     <div class="container">
 
         <div class="center1">
-            <form>
-                <input placeholder="name" type="text">
+            <form id="contactForm">
+                <input placeholder="name" id="name" type="text">
                 <select>
                     <option>Traks</option>
                     <option> Artificial intelligence</option>
@@ -51,17 +51,24 @@
                     <option>Data science</option>
                     <option>Game developpement</option>
                 </select>
-                <input placeholder="Email Adress" type="text">
-                <input placeholder="Phone number " type="number">
-                <input type="button" value="Submit">
+                <input placeholder="Email Adress" id="EmailAdress" type="text">
+                <input placeholder="Phone number " id="PhoneNumber" type="number">
+                <input type="submit" value="Submit">
             </form>
 
         </div>
     </div>
     </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-database.js"></script>
 
-
-
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-firestore.js"></script>
+    <script src="js/fire.js"></script>
 </body>
 
 </html>
